@@ -1,0 +1,36 @@
+{
+  "document_title": "The Care and Support (Charging and Assessment of Resources) Regulations 2014",
+  "document_reference": "uksi_2014_2672",
+  "duties": [
+    {
+      "duty_description": "Provide certain services free of charge (community equipment, intermediate care, reablement support)",
+      "duty_holder": "Local Authorities",
+      "legislative_reference": "regulation 3"
+    },
+    {
+      "duty_description": "Provide services free of charge to adults with variant Creutzfeldt-Jakob disease",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 4"
+    },
+    {
+      "duty_description": "Ensure charges for arrangements do not exceed costs incurred",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 5"
+    },
+    {
+      "duty_description": "Ensure personal expenses allowance for care home residents",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 6"
+    },
+    {
+      "duty_description": "Guarantee minimum income for adults and carers not in care homes",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 7"
+    },
+    {
+      "duty_description": "Carry out financial assessments",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 9"
+    }
+  ]
+}

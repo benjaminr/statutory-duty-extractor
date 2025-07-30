@@ -1,0 +1,46 @@
+{
+  "document_title": "Local Authorities (Public Health Functions and Entry to Premises by Local Healthwatch Representatives) Regulations 2013",
+  "document_reference": "uksi_2013_351",
+  "duties": [
+    {
+      "duty_description": "Weigh and measure children aged 4-5 and 10-11 years",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 3"
+    },
+    {
+      "duty_description": "Offer health checks to eligible persons aged 40-74 years",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 4"
+    },
+    {
+      "duty_description": "Ensure continuous improvement in health check participation",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 5"
+    },
+    {
+      "duty_description": "Provide open access sexual health services",
+      "duty_holder": "Local Authorities",
+      "legislative_reference": "regulation 6"
+    },
+    {
+      "duty_description": "Provide public health advice to clinical commissioning groups",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 7"
+    },
+    {
+      "duty_description": "Provide information and advice on health protection arrangements",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 8"
+    },
+    {
+      "duty_description": "Make and recover charges for certain public health functions",
+      "duty_holder": "Parish, Town and Community Councils",
+      "legislative_reference": "regulation 9"
+    },
+    {
+      "duty_description": "Allow entry and observation by Local Healthwatch representatives",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 11"
+    }
+  ]
+}

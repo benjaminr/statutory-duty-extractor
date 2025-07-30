@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# UV package manager
+.uv/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables (contains secrets)
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test and output files
+*.log
+output/
+test_results/

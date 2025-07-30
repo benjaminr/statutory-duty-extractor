@@ -1,0 +1,56 @@
+{
+  "document_title": "Executive Arrangements and Access to Information Regulations 2012",
+  "document_reference": "uksi_2012_2089",
+  "duties": [
+    {
+      "duty_description": "Hold meetings of decision-making bodies in public, subject to certain exceptions.",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 3"
+    },
+    {
+      "duty_description": "Exclude the public from meetings when confidential or exempt information is discussed.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 4"
+    },
+    {
+      "duty_description": "Follow specific procedures before holding private meetings, including providing notice and reasons.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 5"
+    },
+    {
+      "duty_description": "Give notice of the time and place of public meetings and make agendas available for inspection.",
+      "duty_holder": "Local Authorities",
+      "legislative_reference": "regulation 6"
+    },
+    {
+      "duty_description": "Make agendas and reports for public meetings available for public inspection.",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 7"
+    },
+    {
+      "duty_description": "Define and handle key decisions, including their significance and impact.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 8"
+    },
+    {
+      "duty_description": "Publicise key decisions before they are made, including details and documents for inspection.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 9"
+    },
+    {
+      "duty_description": "Follow general exception procedures when it is impracticable to publicise key decisions in advance.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 10"
+    },
+    {
+      "duty_description": "Obtain agreement for urgent key decisions that cannot be deferred.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 11"
+    },
+    {
+      "duty_description": "Record executive decisions made at meetings, including reasons and alternative options considered.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 12"
+    }
+  ]
+}

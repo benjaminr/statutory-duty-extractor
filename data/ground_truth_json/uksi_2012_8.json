@@ -1,0 +1,36 @@
+{
+  "document_title": "The School Admissions (Admission Arrangements and Co-ordination of Admission Arrangements) (England) Regulations 2012",
+  "document_reference": "uksi_2012_8",
+  "duties": [
+    {
+      "duty_description": "Ensure the regulations are cited correctly, come into force on the specified date, and apply to the relevant academic years and schools in England.",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 1"
+    },
+    {
+      "duty_description": "Interpret terms and references within the regulations according to the definitions provided.",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 2"
+    },
+    {
+      "duty_description": "Revoke specified previous regulations while saving certain provisions for specific academic years.",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 3"
+    },
+    {
+      "duty_description": "Admission authorities must give first priority to looked after children in their oversubscription criteria, with specific exceptions for grammar schools, religious schools, and schools with pre-existing selection arrangements.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 4"
+    },
+    {
+      "duty_description": "Consult specified persons and bodies about proposed admission arrangements, ensuring the consultation covers all relevant matters and follows the prescribed procedures.",
+      "duty_holder": "Unitary Authorities",
+      "legislative_reference": "regulation 5"
+    },
+    {
+      "duty_description": "Publish the determined admission arrangements on the local authority's website by the specified date, including information on the right to object.",
+      "duty_holder": "County Councils",
+      "legislative_reference": "regulation 6"
+    }
+  ]
+}
