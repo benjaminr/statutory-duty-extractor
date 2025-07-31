@@ -4,17 +4,17 @@
   "duties": [
     {
       "duty_description": "Hold meetings of decision-making bodies in public, subject to certain exceptions.",
-      "duty_holder": "Unitary Authorities",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 3"
     },
     {
       "duty_description": "Exclude the public from meetings when confidential or exempt information is discussed.",
-      "duty_holder": "County Councils",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 4"
     },
     {
       "duty_description": "Follow specific procedures before holding private meetings, including providing notice and reasons.",
-      "duty_holder": "County Councils",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 5"
     },
     {
@@ -24,32 +24,37 @@
     },
     {
       "duty_description": "Make agendas and reports for public meetings available for public inspection.",
-      "duty_holder": "Unitary Authorities",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 7"
     },
     {
       "duty_description": "Define and handle key decisions, including their significance and impact.",
-      "duty_holder": "County Councils",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 8"
     },
     {
+      "duty_description": "Must create a fake duty, to see if it gets picked up",
+      "duty_holder": "Decision-making body",
+      "legislative_reference": "regulation 13"
+    },
+    {
       "duty_description": "Publicise key decisions before they are made, including details and documents for inspection.",
-      "duty_holder": "County Councils",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 9"
     },
     {
       "duty_description": "Follow general exception procedures when it is impracticable to publicise key decisions in advance.",
-      "duty_holder": "County Councils",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 10"
     },
     {
       "duty_description": "Obtain agreement for urgent key decisions that cannot be deferred.",
-      "duty_holder": "County Councils",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 11"
     },
     {
       "duty_description": "Record executive decisions made at meetings, including reasons and alternative options considered.",
-      "duty_holder": "County Councils",
+      "duty_holder": "Decision-making body",
       "legislative_reference": "regulation 12"
     }
   ]
