@@ -10,6 +10,7 @@ from rich.logging import RichHandler
 from rich.table import Table
 
 from .extractor import StatutoryDutyExtractor
+from .models import StatutoryInstrument
 
 console = Console()
 logging.basicConfig(
@@ -42,9 +43,10 @@ def setup_extractor() -> StatutoryDutyExtractor:
     )
 
 
-def extract_from_file(file_path: Path) -> None:
-    """Extract duties from a single file and display results."""
-    extractor = setup_extractor()
+def extract_from_file(
+    file_path: Path, extractor: StatutoryDutyExtractor
+) -> StatutoryInstrument:
+    """Extract duties from a single file"""
 
     console.print(f"\n[bold blue]Processing:[/bold blue] {file_path.name}")
 
@@ -69,27 +71,30 @@ def extract_from_file(file_path: Path) -> None:
 
         if not result.duties:
             console.print("[bold yellow]Warning:[/bold yellow] No duties extracted")
-            return
 
-        table = Table(title=f"Statutory Duties - {result.document_title}")
-        table.add_column("Duty Holder", style="cyan", width=20)
-        table.add_column("Duty Description", style="white", no_wrap=False)
-        table.add_column("Reference", style="green", width=15)
-
-        for duty in result.duties:
-            table.add_row(
-                duty.duty_holder,
-                duty.duty_description,
-                duty.legislative_reference,
-            )
-
-        console.print(table)
-        console.print(
-            f"\n[bold green]Extracted {len(result.duties)} duties[/bold green]"
-        )
+        return result
 
     except Exception as e:
         console.print(f"[bold red]Failed to process file:[/bold red] {e}")
+
+
+def print_si_to_sonsole(statutory_instrument: StatutoryInstrument) -> None:
+    table = Table(title=f"Statutory Duties - {statutory_instrument.document_title}")
+    table.add_column("Duty Holder", style="cyan", width=20)
+    table.add_column("Duty Description", style="white", no_wrap=False)
+    table.add_column("Reference", style="green", width=15)
+
+    for duty in statutory_instrument.duties:
+        table.add_row(
+            duty.duty_holder,
+            duty.duty_description,
+            duty.legislative_reference,
+        )
+
+    console.print(table)
+    console.print(
+        f"\n[bold green]Extracted {len(statutory_instrument.duties)} duties[/bold green]"
+    )
 
 
 def main() -> None:
@@ -111,7 +116,11 @@ def main() -> None:
         console.print(f"[bold red]Error:[/bold red] File not found: {args.file}")
         return
 
-    extract_from_file(args.file)
+    extractor = setup_extractor()
+
+    statutory_instrument = extract_from_file(args.file, extractor)
+
+    print_si_to_sonsole(statutory_instrument)
 
 
 if __name__ == "__main__":
