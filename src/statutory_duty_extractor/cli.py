@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 def setup_extractor() -> StatutoryDutyExtractor:
     """Set up the extractor with Azure OpenAI credentials from environment."""
-    load_dotenv()
+    load_dotenv(override=True)
 
     azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
     api_key = os.getenv("AZURE_OPENAI_API_KEY")
