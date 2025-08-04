@@ -1,0 +1,3 @@
+Extract all statutory duties from this statutory instrument:
+
+{document_text}
